@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudha Yadav | Portfolio</title>
+
+  <!-- Google Fonts: Sora for headings, Inter for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION BAR ===================== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">SY<span class="logo-dot">.</span></a>
+
+      <!-- Hamburger button, shown only on mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HOME / HERO SECTION ===================== -->
+  <section id="home" class="section hero">
+    <div class="hero-content">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1 class="hero-name">Sudha Yadav</h1>
+      <p class="hero-tagline">
+        BCA student who turns raw numbers into clear stories &mdash;
+        exploring data analytics, one dataset at a time.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="assets/resume.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+    </div>
+
+    <!-- Profile photo -->
+    <div class="hero-photo-wrap">
+      <img src="assets/profile.jpg" alt="Sudha Yadav" class="hero-photo" />
+      <!-- Small decorative bar-chart badge representing data analytics -->
+      <div class="bar-chart" aria-hidden="true">
+        <span class="bar" style="--h:40%;"></span>
+        <span class="bar" style="--h:65%;"></span>
+        <span class="bar" style="--h:50%;"></span>
+        <span class="bar" style="--h:85%;"></span>
+        <span class="bar" style="--h:60%;"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ME SECTION ===================== -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <p>
+        I'm a Bachelor of Computer Applications (BCA) student with a strong interest
+        in <strong>Data Analytics</strong> and technology. I enjoy working with data,
+        spotting patterns, and building simple tools that make information easier
+        to understand.
+      </p>
+      <p>
+        Alongside my coursework, I like sharpening my programming and analytical
+        skills through small projects, and I'm always excited to learn new tools
+        that help me analyze and present data better.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS SECTION ===================== -->
+  <section id="skills" class="section section-alt">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="skill-icon">&lt;/&gt;</span>
+        <p class="skill-name">HTML</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">#</span>
+        <p class="skill-name">CSS</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">&#9749;</span>
+        <p class="skill-name">Java</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">&#128013;</span>
+        <p class="skill-name">Python</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">&#128451;</span>
+        <p class="skill-name">SQL</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">&#128202;</span>
+        <p class="skill-name">Excel</p>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">&#128200;</span>
+        <p class="skill-name">Power BI</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS SECTION ===================== -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <article class="project-card">
+        <div class="project-thumb" aria-hidden="true">
+          <img src="https://via.placeholder.com/400x220?text=Project+1" alt="Sales Dashboard project preview" loading="lazy" />
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Sales Data Dashboard</h3>
+          <p class="project-desc">
+            An interactive Power BI dashboard analyzing monthly sales trends,
+            top products, and regional performance.
+          </p>
+          <div class="project-links">
+            <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+            <a href="#" class="btn btn-small btn-outline">Source Code</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <div class="project-thumb" aria-hidden="true">
+          <img src="https://via.placeholder.com/400x220?text=Project+2" alt="Student Database System project preview" loading="lazy" />
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Student Database System</h3>
+          <p class="project-desc">
+            A simple SQL-based system to store, update, and query student
+            records with clean, structured tables.
+          </p>
+          <div class="project-links">
+            <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+            <a href="#" class="btn btn-small btn-outline">Source Code</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card">
+        <div class="project-thumb" aria-hidden="true">
+          <img src="https://via.placeholder.com/400x220?text=Project+3" alt="Expense Tracker project preview" loading="lazy" />
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Personal Expense Tracker</h3>
+          <p class="project-desc">
+            A Python script that logs daily expenses and visualizes spending
+            habits using simple charts.
+          </p>
+          <div class="project-links">
+            <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+            <a href="#" class="btn btn-small btn-outline">Source Code</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION SECTION ===================== -->
+  <section id="education" class="section section-alt">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p class="timeline-meta">Your College / University Name &middot; 2023 &ndash; 2026</p>
+          <p>
+            Studying core computer science subjects with a focus on programming,
+            databases, and data analytics.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Senior Secondary (12th Grade)</h3>
+          <p class="timeline-meta">Your School Name &middot; Completed 2023</p>
+          <p>Completed schooling with a strong foundation in mathematics and computer science.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT SECTION ===================== -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <p class="contact-intro">Feel free to reach out &mdash; I'd love to connect!</p>
+
+    <div class="contact-grid">
+      <a href="mailto:sy8820142@gmail.com" class="contact-card">
+        <span class="contact-icon">&#9993;</span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">sy8820142@gmail.com</span>
+      </a>
+      <a href="tel:+919565569573" class="contact-card">
+        <span class="contact-icon">&#128222;</span>
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+91 95655 69573</span>
+      </a>
+      <a href="https://www.linkedin.com/in/sudha-yadav-0b5639374?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-icon">in</span>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">/in/sudha-yadav-0b5639374</span>
+      </a>
+      <a href="https://github.com/your-username" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-icon">&#128187;</span>
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">/your-username</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Sudha Yadav. Built with HTML, CSS &amp; JavaScript.</p>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">&uarr;</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
